@@ -4,7 +4,7 @@ python-isc-dhcp-leases
 |Build Status| |PyPI version| |Coverage Status|
 
 Small python module for reading /var/lib/dhcp/dhcpd.leases from
-isc-dhcp-server. This module works in Python 2.7 and 3.x
+isc-dhcp-server. This module works in Python 3.x
 
 This module also supports reading lease files from the isc dhcp daemon
 running in IPv6 mode (Since version 0.4.0).
@@ -26,9 +26,6 @@ This python module is currently packaged in Debian unstable (release for Debian 
 (Zesty Zapus)
 
 .. code:: bash
-
-    # For the python 2.7 interpreter
-    $ sudo apt install python-isc-dhcp-leases
 
     # For the python 3 interpreter
     $ sudo apt install python3-isc-dhcp-leases
